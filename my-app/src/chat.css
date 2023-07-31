@@ -1,5 +1,40 @@
 /* chat.css */
 
+.main-container {
+    height: 100vh;
+    width: 100vw;
+
+    /* center the main container */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* styling */
+    background-color: #ffffff; /* Background color */
+    font-family: "Comic Sans MS", "Comic Sans";
+    font-size: 16px;
+    color: black; /* Text color */
+
+    display: flex;
+    flex-direction: column;
+}
+
+.left-container, .right-container {
+    height: 100vh;
+    width: auto;
+}
+
+.left-image {
+    top: 70%;
+    width: 70px;
+    height: 85px;
+}
+
+.right-image {
+    top: 70%;
+    width: 70px;
+    height: 85px;
+}
+
 .title-container {
     width: 50vw;
     height: 10vh;
@@ -35,7 +70,6 @@
     font-family: "Comic Sans MS", "Comic Sans";
     font-size: 16px;
     
-
     display: flex;
     flex-direction: column;
 }

@@ -14,6 +14,7 @@ function Chat() {
         '/images/Genie.png',
         '/images/Desk.png',
         '/images/Chemist.png',
+        '/images/Nuke.png',
     ]
 
     const [message, setMessage] = useState({text: "", user: "user", img: getRandomUserPic()}); // sets message to empty string (default value
@@ -74,7 +75,10 @@ function Chat() {
 
     // 
     return (
-        <div className="main">
+        <div className="main-container">
+            <div className="left-container">
+                <img src="/images/Balloon.png" alt="" className="left-image"/>
+            </div>
             <div className="title-container">
                 <h1 className="title">xkcdGPT</h1>
             </div>
@@ -104,6 +108,11 @@ function Chat() {
                         <input type="submit" className="input-button" value="Send" />
                     </form>
                 </div>
+
+                <div className="right-container">
+                    {/* <img src="/images/Squirrel.png" alt="" className="right-image"/> */}
+                </div>
+
             </div>
         </div>
     );
