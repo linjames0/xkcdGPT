@@ -10,16 +10,39 @@
     width: 25%;
 }
 
-.left-image {
-    margin-top: 200px;
-    width: 70px;
-    height: 85px;
+.balloon {
+    position: absolute;
+    margin-top: 300px;
+    width: 80px;
+    height: 95px;
 }
 
-.right-image {
-    top: 70%;
+.gandalf {
+    position: absolute;
+    bottom: 20%;
+    width: 100px;
+    height: 80px;
+}
+
+.asteroid {
+    position: absolute;
+    margin-top: 200px;
+    width: 150px;
+    height: 150px;
+}
+
+.squirrel-gun {
+    position: absolute;
+    bottom: 50%;
     width: 70px;
-    height: 85px;
+    height: 90px;
+}
+
+.squirrel-pair {
+    position: absolute;
+    bottom: 200%;
+    width: 45px;
+    height: 110px;
 }
 
 .center-container {

@@ -77,7 +77,8 @@ function Chat() {
     return (
         <div className="main-container">
             <div className="left-container">
-                <img src="/images/Balloon.png" alt="" className="left-image"/>
+                <img src="/images/Balloon.png" alt="" className="balloon"/>
+                <img src="/images/Gandalf.png" alt="" className="gandalf"/>
             </div>
 
             <div className="center-container">
@@ -115,7 +116,9 @@ function Chat() {
             </div>
 
             <div className="right-container">
-                {/* <img src="/images/Squirrel.png" alt="" className="right-image"/> */}
+                <img src="/images/Asteroid.png" alt="" className="asteroid"/>
+                <img src="/images/SquirrelGun.png" alt="" className="squirrel-gun"/>
+                <img src="/images/SquirrelPair.png" alt="" className="squirrel-pair"/>
             </div>
 
             </div>
