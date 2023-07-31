@@ -34,7 +34,8 @@
 
 .asteroid {
     position: absolute;
-    margin-top: 200px;
+    margin-top: 50px;
+    margin-right: 60px;
     width: 150px;
     height: 150px;
 }
@@ -42,7 +43,7 @@
 .squirrel-gun {
     position: absolute;
     bottom: 30%;
-    margin-left: 100px;
+    margin-left: 30px;
     width: 70px;
     height: 90px;
 }
@@ -51,8 +52,8 @@
     position: absolute;
     bottom: 10%;
     margin-right: 100px;
-    width: 45px;
-    height: 110px;
+    width: 55px;
+    height: 140px;
 }
 
 .center-container {
