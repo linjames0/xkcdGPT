@@ -77,12 +77,12 @@ function Chat() {
     return (
         <div className="main-container">
             <div className="left-container">
+                <img src="/images/UFO.png" alt="" className="ufo"/>
                 <img src="/images/Balloon.png" alt="" className="balloon"/>
                 <img src="/images/Gandalf.png" alt="" className="gandalf"/>
             </div>
 
             <div className="center-container">
-
             
                 <div className="title-container">
                     <h1 className="title">xkcdGPT</h1>
