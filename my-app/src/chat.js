@@ -76,43 +76,47 @@ function Chat() {
     // 
     return (
         <div className="main-container">
-            {/* <div className="left-container">
+            <div className="left-container">
                 <img src="/images/Balloon.png" alt="" className="left-image"/>
-            </div> */}
-
-            <div className="title-container">
-                <h1 className="title">xkcdGPT</h1>
             </div>
 
-            <div className="chat-container">
-                <div className="messages-container">
-                    {/* console.log("messages: ", messages) */}
-                    {messages.map((message, index) => ( // maps through messages array and displays each message
-                        // <p key={index}>{message}</p>
-                        <div key={index} className={message.user === "user" ? 'user-message' : 'server-message'}>
-                            <div className="pfp-container">
-                                <img src={message.user === 'server' ? message.img : message.img} alt="" className="pfp"/>
-                            </div>
-                            <div className="text-container">
-                                <p>{message.text}</p>
-                            </div>
-                            <div className="pfp-container">
-                                <img src={message.user === 'server' ? message.img : message.img} alt="" className="pfp"/>
-                            </div>
-                        </div>
-                    ))}
+            <div className="center-container">
+
+            
+                <div className="title-container">
+                    <h1 className="title">xkcdGPT</h1>
                 </div>
 
-                <div className="input-container">
-                    <form onSubmit={handleSubmit}>
-                        <input type="text" className="input-field" placeholder="Ask me anything!" value={message.text} onChange={handleChange} />
-                        <input type="submit" className="input-button" value="Send" />
-                    </form>
-                </div>
+                <div className="chat-container">
+                    <div className="messages-container">
+                        {/* console.log("messages: ", messages) */}
+                        {messages.map((message, index) => ( // maps through messages array and displays each message
+                            // <p key={index}>{message}</p>
+                            <div key={index} className={message.user === "user" ? 'user-message' : 'server-message'}>
+                                <div className="pfp-container">
+                                    <img src={message.user === 'server' ? message.img : message.img} alt="" className="pfp"/>
+                                </div>
+                                <div className="text-container">
+                                    <p>{message.text}</p>
+                                </div>
+                                <div className="pfp-container">
+                                    <img src={message.user === 'server' ? message.img : message.img} alt="" className="pfp"/>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
 
-                {/* <div className="right-container">
-                    <img src="/images/Squirrel.png" alt="" className="right-image"/>
-                </div> */}
+                    <div className="input-container">
+                        <form onSubmit={handleSubmit}>
+                            <input type="text" className="input-field" placeholder="Ask me anything!" value={message.text} onChange={handleChange} />
+                            <input type="submit" className="input-button" value="Send" />
+                        </form>
+                    </div>
+            </div>
+
+            <div className="right-container">
+                {/* <img src="/images/Squirrel.png" alt="" className="right-image"/> */}
+            </div>
 
             </div>
         </div>
