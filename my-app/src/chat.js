@@ -76,10 +76,10 @@ function Chat() {
     // 
     return (
         <div className="main-container">
-            <div className="left-container">
+            {/* <div className="left-container">
                 <img src="/images/Balloon.png" alt="" className="left-image"/>
-            </div>
-            
+            </div> */}
+
             <div className="title-container">
                 <h1 className="title">xkcdGPT</h1>
             </div>
@@ -110,9 +110,9 @@ function Chat() {
                     </form>
                 </div>
 
-                <div className="right-container">
-                    {/* <img src="/images/Squirrel.png" alt="" className="right-image"/> */}
-                </div>
+                {/* <div className="right-container">
+                    <img src="/images/Squirrel.png" alt="" className="right-image"/>
+                </div> */}
 
             </div>
         </div>
