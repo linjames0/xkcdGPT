@@ -2,7 +2,7 @@
 
 .main-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .left-container, .right-container {
