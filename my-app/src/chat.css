@@ -7,7 +7,7 @@
 
 .left-container, .right-container {
     height: 100vh;
-    width: 25%;
+    width: 25vw;
 }
 
 .ufo {
@@ -25,11 +25,11 @@
 }
 
 .gandalf {
-    position: static;
+    position: absolute;
     bottom: 0;
     margin-right: 100px;
-    width: 100px;
-    height: 80px;
+    width: 110px;
+    height: 87px;
 }
 
 .asteroid {
