@@ -31,5 +31,14 @@ def add_cors_headers(response):
 def after_request(response):
     return add_cors_headers(response)
 
+@app.errorhandler(500)
+def handle_500_error(error):
+    response = {
+        'status': 500,
+        "error": "Internal Server Error",
+        'messages': str(error)
+    }
+    return jsonify(response), 500
+
 if __name__ == '__main__':
     app.run(port=5000, debug=True)
