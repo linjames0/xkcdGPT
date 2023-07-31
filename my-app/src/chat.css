@@ -20,7 +20,7 @@
 
 .left-container, .right-container {
     height: 100vh;
-    width: auto;
+    width: 25%;
 }
 
 .left-image {

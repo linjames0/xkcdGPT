@@ -79,6 +79,7 @@ function Chat() {
             <div className="left-container">
                 <img src="/images/Balloon.png" alt="" className="left-image"/>
             </div>
+            
             <div className="title-container">
                 <h1 className="title">xkcdGPT</h1>
             </div>
