@@ -3,7 +3,7 @@ from flask_cors import CORS
 from xkcdGPT import generate_response
 
 app = Flask(__name__)
-CORS(app)   # allow CORS for all endpoints
+CORS(app, resources={r"/api/*": {"origins": "https://master.dkkptgj34gag4.amplifyapp.com"}})
 
 @app.route('/api/chat', methods=['POST', 'OPTIONS'])
 def chat_endpoint():
