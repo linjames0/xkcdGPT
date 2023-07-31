@@ -6,6 +6,7 @@
 }
 
 .left-container, .right-container {
+    flex-direction: column;
     height: 100vh;
     width: 25vw;
 }
@@ -35,7 +36,7 @@
 .asteroid {
     position: absolute;
     margin-top: 50px;
-    margin-right: 60px;
+    justify-content: center;
     width: 150px;
     height: 150px;
 }
@@ -50,8 +51,8 @@
 
 .squirrel-pair {
     position: absolute;
-    bottom: 10%;
-    margin-right: 100px;
+    bottom: 0;
+    margin-right: 150px;
     width: 55px;
     height: 140px;
 }
@@ -81,7 +82,7 @@
 
     display: flex;
     align-items: center; /* center the text */
-    justify-content: center;
+    justify-content: center;    /* the direction centered is horizontal */
 }
 
 .chat-container {
