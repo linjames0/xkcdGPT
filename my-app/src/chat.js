@@ -77,7 +77,7 @@ function Chat() {
     return (
         <div className="main-container">
             <div className="left-container">
-                <img src="/images/UFO.png" alt="" className="ufo"/>
+                {/* <img src="/images/UFO.png" alt="" className="ufo"/> */}
                 <img src="/images/Balloon.png" alt="" className="balloon"/>
                 <img src="/images/Gandalf.png" alt="" className="gandalf"/>
             </div>
@@ -113,14 +113,13 @@ function Chat() {
                             <input type="submit" className="input-button" value="Send" />
                         </form>
                     </div>
+                </div>
             </div>
 
             <div className="right-container">
                 <img src="/images/Asteroid.png" alt="" className="asteroid"/>
                 <img src="/images/SquirrelGun.png" alt="" className="squirrel-gun"/>
                 <img src="/images/SquirrelPair.png" alt="" className="squirrel-pair"/>
-            </div>
-
             </div>
         </div>
     );

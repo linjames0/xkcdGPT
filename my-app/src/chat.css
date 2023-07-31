@@ -19,7 +19,7 @@
 
 .balloon {
     position: absolute;
-    margin-top: 300px;
+    margin-top: 200px;
     width: 80px;
     height: 95px;
 }
@@ -33,22 +33,24 @@
 }
 
 .asteroid {
-    position: static;
+    position: absolute;
     margin-top: 200px;
     width: 150px;
     height: 150px;
 }
 
 .squirrel-gun {
-    position: static;
-    margin-top: 300px;
+    position: absolute;
+    bottom: 30%;
+    margin-left: 100px;
     width: 70px;
     height: 90px;
 }
 
 .squirrel-pair {
-    position: static;
-    margin-top: 600px;
+    position: absolute;
+    bottom: 10%;
+    margin-right: 100px;
     width: 45px;
     height: 110px;
 }
