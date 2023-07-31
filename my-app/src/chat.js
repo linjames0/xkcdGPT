@@ -34,7 +34,7 @@ function Chat() {
         console.log("sending message: ", message.text)
         
         // send a POST request to the backend
-        const response = await fetch('http://127.0.0.1:5000/api/chat', {   // makes a request for data from the backend
+        const response = await fetch('https://xkcd-19e851b8b0b4.herokuapp.com/api/chat', {   // makes a request for data from the backend
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'  // tells backend that we are sending JSON data
