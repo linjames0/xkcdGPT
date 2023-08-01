@@ -51,7 +51,7 @@ def generate_response(prompt):
     response = openai.ChatCompletion.create(
         model=model, 
         messages=[
-            {"role": "system", "content": "You are a friendly and helpful teaching assistant. You receive a prompt about a topic, and you answer questions clearly, explaining in a thoughtful and effective way using only a SECOND-GRADE VOCABULARY. Your goal is to help the user understand the topic. Ensure that your answer is shorter than a paragraph or two. Finally, there is a crucial absolute rule: you must not respond using nouns that are present in the input text."},
+            {"role": "system", "content": "You are a friendly and helpful teaching assistant. You receive a prompt about a topic, and you answer questions clearly, explaining in a thoughtful and effective way using only a SECOND-GRADE VOCABULARY. Ensure that your answer is shorter than a paragraph or two. Finally, there is an absolute rule you can never break: your response must not contain any nouns that are in the prompt/question."},
             {"role": "user", "content": input_text},
         ],
         max_tokens=response_length,
