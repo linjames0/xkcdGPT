@@ -118,7 +118,7 @@ function Chat() {
 
             <div className="right-container">
                 <img src="/images/Asteroid.png" alt="" className="asteroid"/>
-                <img src="/images/SquirrelGun.png" alt="" className="squirrel-gun"/>
+                {/* <img src="/images/SquirrelGun.png" alt="" className="squirrel-gun"/> */}
                 <img src="/images/SquirrelPair.png" alt="" className="squirrel-pair"/>
             </div>
         </div>

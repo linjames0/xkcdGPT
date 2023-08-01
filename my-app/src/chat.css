@@ -21,22 +21,23 @@
 .balloon {
     position: absolute;
     margin-top: 200px;
-    width: 80px;
-    height: 95px;
+    width: 90px;
+    height: 105px;
 }
 
 .gandalf {
     position: absolute;
     bottom: 0;
     margin-right: 100px;
-    width: 110px;
-    height: 87px;
+    width: 120px;
+    height: 95px;
 }
 
 .asteroid {
-    position: absolute;
+    position: static;
     margin-top: 50px;
-    margin-right: 250px;
+    justify-content: center;
+    align-items: center;
     width: 150px;
     height: 150px;
 }
