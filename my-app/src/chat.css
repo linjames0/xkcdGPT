@@ -36,7 +36,7 @@
 .asteroid {
     position: absolute;
     margin-top: 50px;
-    justify-content: center;
+    margin-right: 200px;
     width: 150px;
     height: 150px;
 }
